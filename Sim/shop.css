@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .btn-primary {
+    background-color: #d4af37;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn-primary:hover {
+    background-color: #b28e2f;
+}
+
+/* Featured Diamonds Section */
+.featured-diamonds {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.featured-diamonds h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.diamond-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.diamond-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.diamond-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.diamond-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.diamond-item p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.diamond-item .btn-secondary {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.diamond-item .btn-secondary:hover {
+    background-color: #555;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about-us .btn-primary {
+    background-color: #d4af37;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.about-us .btn-primary:hover {
+    background-color: #b28e2f;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-info {
+    margin-bottom: 10px;
+}
+
+footer .footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .footer-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .footer-links li a:hover {
+    text-decoration: underline;
+}
