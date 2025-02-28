@@ -1,0 +1,10 @@
+/project-folder
+│
+├── index.php
+├── styles.css
+├── images/
+│   ├── ps5.jpg
+│   ├── xbox.jpg
+│   ├── gaming_pc.jpg
+│   └── macbook.jpg
+└── database.sql

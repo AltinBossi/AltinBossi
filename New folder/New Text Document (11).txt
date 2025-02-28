@@ -1,0 +1,18 @@
+/project-folder
+│
+├── index.php
+├── register.php
+├── login.php
+├── admin_login.php
+├── admin_dashboard.php
+├── add_product.php
+├── edit_product.php
+├── delete_product.php
+├── logout.php
+├── styles.css
+├── images/
+│   ├── ps5.jpg
+│   ├── xbox.jpg
+│   ├── gaming_pc.jpg
+│   └── macbook.jpg
+└── database.sql

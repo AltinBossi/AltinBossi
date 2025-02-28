@@ -1,0 +1,19 @@
+CREATE DATABASE store;
+
+USE store;
+
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    description TEXT NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    category ENUM('Game Console', 'Computer') NOT NULL,
+    image VARCHAR(255) NOT NULL
+);
+
+-- Insert sample data
+INSERT INTO products (name, description, price, category, image) VALUES
+('PlayStation 5', 'Next-gen gaming console with ultra-high-speed SSD.', 499.99, 'Game Console', 'ps5.jpg'),
+('Xbox Series X', 'The fastest, most powerful Xbox ever.', 499.99, 'Game Console', 'xbox.jpg'),
+('Gaming PC', 'High-performance gaming PC with RTX 3080.', 1499.99, 'Computer', 'gaming_pc.jpg'),
+('MacBook Pro', 'Powerful laptop for professionals and creatives.', 1999.99, 'Computer', 'macbook.jpg');
